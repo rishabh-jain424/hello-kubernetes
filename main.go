@@ -13,7 +13,7 @@ func Greet(name string) string {
 }
 
 func main() {
-	greeting := Greet("change-me")
+	greeting := Greet("David")
 	log.Printf(greeting)
 	for {
 		//Don't exit.
