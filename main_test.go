@@ -11,11 +11,11 @@ func TestGreet(t *testing.T) {
 		want string
 	}{
 		{
-			arg:  "Brian",
-			want: "Hello Brian!",
+			arg:  "Yogesh",
+			want: "Hello Yogesh!",
 		}, {
-			arg:  "Mary",
-			want: "Hello Mary!",
+			arg:  "Rishabh",
+			want: "Hello Rishabh!",
 		},
 	}
 	for _, test := range tests {
